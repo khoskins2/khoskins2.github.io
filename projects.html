@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Projects</title>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" href="styles.css" />
+      <script src="main.js" defer></script>
+    </head>
+  </head>
+  <body class="background">
+    <div class="topnav">
+      <a href="javascript:void(0);" onclick="navTo('about.html')">Home</a>
+      <div id="myLinks">
+        <a href="javascript:void(0);" onclick="navTo('about.html')">About</a>
+        <a href="javascript:void(0);" onclick="navTo('contact.html')"
+          >Contact</a
+        >
+        <a href="javascript:void(0);" onclick="navTo('projects.html')"
+          >Projects</a
+        >
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="page-titles">
+      <h1>My Projects</h1>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-child">
+        <span onclick="openECM()">
+          <h3>Emergency Class Manager</h3>
+          <h5>
+            Emergency Class Manager is an interactive website that allows
+            teachers and administration in the Clarksville-Montgomery County
+            School System to keep track of students during emergency situations
+            or drills.
+          </h5>
+          <h5>
+            Tech Stack: HTML, CSS, JavaScript, Node.js, Vue.js, Vuetify, Supabase(Postgres)
+          </h5>
+          <h5>
+            Teachers are able to mark students present or absent and send that
+            information to administrators. Teachers can view events (drills) for
+            the future as well as directly email administration, and update
+            their account.
+          </h5>
+          <h5>
+            Administration is able to do the same things as teachers, as well as
+            some added features. They are able to create events (drills) as well
+            as delete events for teachers to view. They can view reports from
+            teachers as well as view users who are in the system. Administrators
+            can also add students, delete students, add classes, and delete classes.
+          </h5>
+        </span>
+      </div>
+
+      <div class="flex-child">
+        <h3>My Media List</h3>
+      </div>
+    </div>
+  </body>
+  <link rel="stylesheet" href="styles.css" />
+</html>
